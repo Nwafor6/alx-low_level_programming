@@ -16,7 +16,7 @@ while (ch <=123)
 {
 putchar(ch);
 putchar('\n');
-ch ++
-}
+ch ++;
+};
 return (0);
 }
