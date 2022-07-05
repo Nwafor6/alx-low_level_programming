@@ -10,12 +10,11 @@
  */
 int main(void)
 {
-char ch=97;
+char ch = 97;
 
-while (ch <=123)
+while (ch <= 123)
 {
 putchar(ch);
-putchar('\n');
 ch ++;
 };
 return (0);
