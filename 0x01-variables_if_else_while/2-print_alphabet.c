@@ -1,21 +1,18 @@
-#include  <stdio.h>
-#include <time.h>
-#include <stdlib.h>
-
+#include <stdio.h>
 
 /**
- * main print letters inlower case from a-z
- * stored the varable in n
- * Retured : 0 if successful
- */
+* main-print the alphabet in lowercase
+* followed by a new line
+* Return: 0 if successful
+*/
 int main(void)
 {
-char ch = 97;
+char ch;
 
-while (ch <= 122)
+for (ch = 'a'; ch <= 'z'; ch++)
 {
 putchar(ch);
-ch++;
-};
-return (0);
 }
+putchar('\n');
+return (0);
+}}
