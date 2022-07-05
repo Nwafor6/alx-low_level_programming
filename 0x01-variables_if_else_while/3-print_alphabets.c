@@ -1,24 +1,19 @@
-#include <limits.h>
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
- * int main content goes into this place
- * set initialize the varable a = 97
- * loop through the varable as long as the 
- * varableis not greater than == 123
- * Return (0) if the result is successful
- */
-
+* main-print the alphabet in lowercase
+* and then in uppercase
+* followed by a new line
+* Return: 0 if successful
+*/
 int main(void)
 {
-char ch = 97;
-while (ch != 123 )
-{
+int ch;
+
+for (ch = 'a'; ch <= 'z'; ch++)
 putchar(ch);
-putchar(toupper(ch));
-ch++;
-}
-putchar("\n")'
+for (ch = 'A'; ch <= 'Z'; ch++)
+putchar(ch);
+putchar('\n');
 return (0);
 }
