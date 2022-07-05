@@ -4,7 +4,7 @@
 
 
 /**
- * main-print letters inlower case from a-z
+ * main print letters inlower case from a-z
  * stored the varable in n
  * Retured : 0 if successful
  */
@@ -12,10 +12,10 @@ int main(void)
 {
 char ch = 97;
 
-while (ch <= 123)
+while (ch <= 122)
 {
 putchar(ch);
-ch ++;
+ch++;
 };
 return (0);
 }
